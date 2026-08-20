@@ -1,1 +1,194 @@
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial;color:#17202a;background:#f6f4f7}.page{max-width:1050px;margin:auto;min-height:100vh;background:white;text-align:center}.hero{height:300px;position:relative;background:linear-gradient(135deg,#350442,#6b0c84 50%,#a34cbc);margin-bottom:70px}.photo{position:absolute;width:220px;height:220px;object-fit:cover;object-position:center 30%;border-radius:50%;border:7px solid white;left:50%;bottom:-60px;transform:translateX(-50%);box-shadow:0 12px 30px #3a174555}.content{padding:0 25px 40px}h1{font-size:clamp(2.6rem,7vw,4.3rem);color:#5b0b75;margin:0}.role,.research{max-width:800px;margin:16px auto;font-weight:650;line-height:1.45}.role{font-size:1.3rem}.research{font-size:1.15rem}.uni{margin:20px;font-weight:800;letter-spacing:.2em;color:#155c67}.actions{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;gap:12px;max-width:930px;margin:30px auto}.action{display:flex;align-items:center;text-align:left;gap:13px;padding:16px;border:1px solid #e8e1eb;border-radius:17px;text-decoration:none;color:inherit;box-shadow:0 6px 18px #32173712}.primary{background:linear-gradient(135deg,#5b0b75,#8615a0);color:white;border:0}.icon{font-size:1.5rem;width:42px}.action strong,.action small{display:block}.action small{margin-top:3px;color:#5c6570}.primary small{color:#eee}.brand{border-top:1px solid #e8e1eb;max-width:850px;margin:30px auto 0;padding:28px}.brand h2{font-size:2.3rem;margin:0}.brand h2 span{color:#5b0b75}.areas{line-height:1.8;color:#4d3158}@media(max-width:700px){.hero{height:230px;margin-bottom:55px}.photo{width:170px;height:170px;bottom:-45px}.content{padding:0 14px 30px}.role{font-size:1rem}.research{font-size:.96rem}.uni{font-size:.85rem}.actions{grid-template-columns:1fr}.action{min-height:70px}}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    color: #17202a;
+    background: #f6f4f7;
+}
+
+.page {
+    max-width: 1050px;
+    margin: auto;
+    min-height: 100vh;
+    background: white;
+    text-align: center;
+}
+
+.hero {
+    height: 300px;
+    position: relative;
+    background: linear-gradient(135deg, #350442, #6b0c84 50%, #a34cbc);
+    margin-bottom: 70px;
+}
+
+.photo {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center 30%;
+    border-radius: 50%;
+    border: 7px solid white;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+    box-shadow: 0 12px 30px #3a174555;
+}
+
+.content {
+    padding: 0 25px 40px;
+}
+
+h1 {
+    font-size: clamp(2.6rem, 7vw, 4.3rem);
+    color: #5b0b75;
+    margin: 0;
+}
+
+.role,
+.research {
+    max-width: 800px;
+    margin: 16px auto;
+    font-weight: 650;
+    line-height: 1.45;
+}
+
+.role {
+    font-size: 1.3rem;
+}
+
+.research {
+    font-size: 1.15rem;
+}
+
+.uni {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 800;
+    letter-spacing: .2em;
+    color: #155c67;
+    text-transform: uppercase;
+}
+
+.eia-logo {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.2fr;
+    gap: 12px;
+    max-width: 930px;
+    margin: 30px auto;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 13px;
+    padding: 16px;
+    border: 1px solid #e8e1eb;
+    border-radius: 17px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 6px 18px #32173712;
+}
+
+.primary {
+    background: linear-gradient(135deg, #5b0b75, #8615a0);
+    color: white;
+    border: 0;
+}
+
+.icon {
+    font-size: 1.5rem;
+    width: 42px;
+}
+
+.action strong,
+.action small {
+    display: block;
+}
+
+.action small {
+    margin-top: 3px;
+    color: #5c6570;
+}
+
+.primary small {
+    color: #eee;
+}
+
+.brand {
+    border-top: 1px solid #e8e1eb;
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 28px;
+}
+
+.brand h2 {
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.brand h2 span {
+    color: #5b0b75;
+}
+
+.areas {
+    line-height: 1.8;
+    color: #4d3158;
+}
+
+@media (max-width: 700px) {
+    .hero {
+        height: 230px;
+        margin-bottom: 55px;
+    }
+
+    .photo {
+        width: 170px;
+        height: 170px;
+        bottom: -45px;
+    }
+
+    .content {
+        padding: 0 14px 30px;
+    }
+
+    .role {
+        font-size: 1rem;
+    }
+
+    .research {
+        font-size: .96rem;
+    }
+
+    .uni {
+        margin: 18px 8px 22px;
+        gap: 10px;
+        font-size: .85rem;
+        letter-spacing: .12em;
+    }
+
+    .eia-logo {
+        width: 72px;
+    }
+
+    .actions {
+        grid-template-columns: 1fr;
+    }
+
+    .action {
+        min-height: 70px;
+    }
+}
