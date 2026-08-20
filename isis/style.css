@@ -65,19 +65,15 @@ h1 {
 }
 
 .uni {
-    margin: 20px;
+    margin: 14px auto 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 14px;
-    font-weight: 800;
-    letter-spacing: .2em;
-    color: #155c67;
-    text-transform: uppercase;
 }
 
-.eia-logo {
-    width: 90px;
+.uni .eia-logo {
+    width: 220px;
+    max-width: 220px;
     height: auto;
     display: block;
 }
@@ -174,14 +170,12 @@ h1 {
     }
 
     .uni {
-        margin: 18px 8px 22px;
-        gap: 10px;
-        font-size: .85rem;
-        letter-spacing: .12em;
+        margin: 14px auto 20px;
     }
 
-    .eia-logo {
-        width: 72px;
+    .uni .eia-logo {
+        width: 170px;
+        max-width: 170px;
     }
 
     .actions {
