@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Acevedo Pérez;Fernando;;;
+FN:Fernando Acevedo Pérez
+ORG:SITIC Group S.A.S.
+TITLE:Gerente
+TEL;TYPE=CELL:+573148408048
+EMAIL;TYPE=WORK:gerente.comercial@siticgroup.com.co
+URL:https://siticgroup.com.co/
+ADR;TYPE=WORK:;;Calle 16b # 55-89;Medellín;Antioquia;;Colombia
+END:VCARD
